@@ -10,7 +10,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button button; // declareing the button
+   // Button button; // declareing the button
     Button Btn1;
    //Button Btn2;
     @Override
@@ -19,14 +19,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        button = findViewById(R.id.mybtn); // found the button by ID
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Log.d("test", "Clicked");
-            }
-        });  // event listener on button
+//        button = findViewById(R.id.mybtn); // found the button by ID
+//        button.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//
+//                Log.d("test", "Clicked");
+//            }
+//        });  // event listener on button
         Btn1 = findViewById(R.id.myBtn1);
         Btn1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,5 +46,8 @@ public class MainActivity extends AppCompatActivity {
     public void GreenPressed(View view){
         Log.d("test","Green going strong via method");
 
+    }
+    public void DontTouch(View view){
+        Log.d("test","Dont touch it : via method");
     }
 }

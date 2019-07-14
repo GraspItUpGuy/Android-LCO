@@ -15,6 +15,7 @@
         android:background="#A56868"
         android:backgroundTint="#486F8D"
         android:backgroundTintMode="add"
+        android:onClick="DontTouch"
         android:text="Hey Android!"
         android:textSize="30sp"
         android:textStyle="bold|italic"
