@@ -1,4 +1,4 @@
-package com.example.helloworld;
+package com.example.mybuttonapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,7 +6,6 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
-    // romannuril.github.io/AndroidAssetStudio
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
