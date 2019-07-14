@@ -30,6 +30,9 @@
         android:layout_marginTop="100dp"
         android:background="#25CCF7"
         android:text="Blue Button"
+        android:textColor="#EAF0F1"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
         app:layout_constraintTop_toBottomOf="@+id/mybtn"
         tools:layout_editor_absoluteX="8dp" />
 
@@ -39,7 +42,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="140dp"
         android:background="#45CE30"
+        android:onClick="GreenPressed"
         android:text="Green Button"
+        android:textColor="#EAF0F1"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
         app:layout_constraintTop_toBottomOf="@+id/myBtn1"
         tools:layout_editor_absoluteX="8dp" />
 

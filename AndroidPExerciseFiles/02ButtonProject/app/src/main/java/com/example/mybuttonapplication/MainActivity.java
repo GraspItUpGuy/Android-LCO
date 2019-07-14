@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
 
     Button button; // declareing the button
     Button Btn1;
-    Button Btn2;
+   //Button Btn2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         // we write our code here
@@ -35,12 +35,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Btn2 = findViewById(R.id.myBtn2);
-        Btn2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Log.d("test 3", "Green Button clicked");
-            }
-        });
+//        Btn2 = findViewById(R.id.myBtn2);
+//        Btn2.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Log.d("test 3", "Green Button clicked");
+//            }
+//        });
+    }
+    public void GreenPressed(View view){
+        Log.d("test","Green going strong via method");
+
     }
 }
