@@ -61,10 +61,11 @@ public class MainActivity extends AppCompatActivity {
     }
     public void DontTouch(View view){
       //  Log.d("test","Dont touch it : via method");
-        Context context = getApplicationContext();
-        CharSequence text = "Hello from the Android"; // string is also fine in here
-        int duration = Toast.LENGTH_SHORT;
-        Toast toast  = Toast.makeText(context, text,duration);
-        toast.show();
+//        Context context = getApplicationContext();
+//        CharSequence text = "Hello from the Android"; // string is also fine in here
+//        int duration = Toast.LENGTH_SHORT;
+//        Toast toast  = Toast.makeText(context, text,duration);
+//        toast.show();
+        Toast.makeText(getApplicationContext(),"Dont touch this !!!", Toast.LENGTH_SHORT).show();
     }
 }
