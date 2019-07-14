@@ -2,10 +2,12 @@ package com.example.mybuttonapplication;// package declaration
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -32,6 +34,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Log.d("test1", "Blue Button clicked");
+                Context context = getApplicationContext();
+                String text = "you just pressed blue button";
+                int duration = Toast.LENGTH_SHORT;
+                Toast toast = Toast.makeText(context,text,duration);
+                toast.show();
             }
         });
 
@@ -45,9 +52,19 @@ public class MainActivity extends AppCompatActivity {
     }
     public void GreenPressed(View view){
         Log.d("test","Green going strong via method");
+        Context context = getApplicationContext();
+        String text = "You just pressed Green button";
+        int duration = Toast.LENGTH_LONG;
+        Toast toast = Toast.makeText(context,text,duration);
+        toast.show();
 
     }
     public void DontTouch(View view){
-        Log.d("test","Dont touch it : via method");
+      //  Log.d("test","Dont touch it : via method");
+        Context context = getApplicationContext();
+        CharSequence text = "Hello from the Android"; // string is also fine in here
+        int duration = Toast.LENGTH_SHORT;
+        Toast toast  = Toast.makeText(context, text,duration);
+        toast.show();
     }
 }
