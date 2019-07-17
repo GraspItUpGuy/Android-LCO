@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="359dp"
+        android:layout_height="50dp"
+        android:background="#F44336"
+        android:onClick="RedPressed"
+        android:text="Happy Birthday"
+        android:textColor="#EAF0F1"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.232" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="387dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="112dp"
+        android:background="#67E6DC"
+        android:backgroundTint="#53E0BC"
+        android:onClick="GreenPressed"
+        android:text="Hello Android"
+        android:textAlignment="center"
+        android:textColor="#EAF0F1"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintTop_toBottomOf="@+id/btn1"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="381dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="88dp"
+        android:background="#2C3335"
+        android:backgroundTint="#4C4B4B"
+        android:onClick="getDeveloper"
+        android:text="find the developer"
+        android:textAllCaps="true"
+        android:textColor="#EAF0F1"
+        android:textStyle="bold|italic"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        tools:layout_editor_absoluteX="14dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
