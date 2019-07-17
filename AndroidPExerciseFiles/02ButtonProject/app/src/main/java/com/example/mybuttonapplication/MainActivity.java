@@ -34,8 +34,23 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Log.d("test1", "Blue Button clicked");
+//                Context context = getApplicationContext();
+//                String text = "you just pressed blue button";
+//                int duration = Toast.LENGTH_SHORT;
+//                Toast toast = Toast.makeText(context,text,duration);
+//                toast.show();
+                String text = "Sky is the limit, but gold is not here!!!";
+                Toast.makeText(getApplicationContext(),text, Toast.LENGTH_SHORT).show();
+            }
+        });
+        Button btn4;
+        btn4 = findViewById(R.id.mybtn4);
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.d("test", "Ocean is pressed");
                 Context context = getApplicationContext();
-                String text = "you just pressed blue button";
+                String text = "Ocean has fishes, not gold, you idiot";
                 int duration = Toast.LENGTH_SHORT;
                 Toast toast = Toast.makeText(context,text,duration);
                 toast.show();
@@ -52,11 +67,13 @@ public class MainActivity extends AppCompatActivity {
     }
     public void GreenPressed(View view){
         Log.d("test","Green going strong via method");
-        Context context = getApplicationContext();
-        String text = "You just pressed Green button";
-        int duration = Toast.LENGTH_LONG;
-        Toast toast = Toast.makeText(context,text,duration);
-        toast.show();
+//        Context context = getApplicationContext();
+//        String text = "You just pressed Green button";
+//        int duration = Toast.LENGTH_LONG;
+//        Toast toast = Toast.makeText(context,text,duration);
+//        toast.show();
+        String text ="Grass is good to sit, but gold has its standards";
+        Toast.makeText(this,text, Toast.LENGTH_SHORT).show();
 
     }
     public void DontTouch(View view){
@@ -66,6 +83,17 @@ public class MainActivity extends AppCompatActivity {
 //        int duration = Toast.LENGTH_SHORT;
 //        Toast toast  = Toast.makeText(context, text,duration);
 //        toast.show();
-        Toast.makeText(getApplicationContext(),"Dont touch this !!!", Toast.LENGTH_SHORT).show();
+      //  Toast.makeText(getApplicationContext(),"Don't touch this !!!, Its not a button, you Idiot!!!", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"Don't touch this !!!, Its not a button, you Idiot!!!", Toast.LENGTH_SHORT).show();
+        // this can also be used for getApplicationContext()
+    }
+    public void RedPressed(View view){
+        Log.d("test 3", "you searched in fire");
+        String text = "Fire will melt the gold , you idiot !!!!";
+        Toast.makeText(this,text,Toast.LENGTH_SHORT).show();
+    }
+    public void notFound(View view){
+        Log.d("test", "you can't find it");
+        Toast.makeText(this,"Yes, you cant find gold coz' you don't deserve it",Toast.LENGTH_SHORT).show();
     }
 }
