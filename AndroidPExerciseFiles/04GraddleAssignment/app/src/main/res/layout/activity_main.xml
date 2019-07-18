@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/errBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Error Button"
+        android:background="#EA425C"
+        android:textColor="#EAF0F1"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:onClick="showToast"
+        android:padding="3dp"
+        />
+
+    <Button
+        android:id="@+id/succbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Success Button"
+        android:background="#45CE30"
+        android:textColor="#EAF0F1"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:onClick="showToast"
+        android:padding="3dp"
+        />
+    <Button
+        android:id="@+id/infoBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="info Button"
+        android:background="#74B9FF"
+        android:textColor="#EAF0F1"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:onClick="showToast"
+        android:padding="3dp"
+        />
+    <Button
+        android:id="@+id/warnBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Warning Button"
+        android:background="#AE1438"
+        android:textColor="#EAF0F1"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:onClick="showToast"
+        android:padding="3dp"
+        />
+    <Button
+        android:id="@+id/idiotBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You are an idiot"
+        android:background="#EA425C"
+        android:textColor="#EAF0F1"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:onClick="showToast"
+        android:padding="3dp"
+        />
+    <Button
+        android:id="@+id/getOutBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Just go away !!!"
+        android:background="#2C3335"
+        android:textColor="#EAF0F1"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:onClick="showToast"
+        android:padding="3dp"
+        />
+    <Button
+        android:id="@+id/stillBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You still here ???"
+        android:background="#F4C724"
+        android:textColor="#EAF0F1"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:onClick="showToast"
+        android:padding="3dp"
+        />
+    <Button
+        android:id="@+id/stayBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You really wanna stay ???"
+        android:background="#53E0BC"
+        android:textColor="#EAF0F1"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:onClick="showToast"
+        android:padding="3dp"
+        />
+    <Button
+        android:id="@+id/fuckOffBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Just get out !!!"
+        android:background="#E74292"
+        android:textColor="#EAF0F1"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:onClick="showToast"
+        android:padding="3dp"
+        />
+
+
+
+</LinearLayout>
